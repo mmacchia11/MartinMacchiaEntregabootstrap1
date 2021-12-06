@@ -1,5 +1,4 @@
-/*===============Propiedades Globales================*/
-
+/* GLOBAL */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body {
@@ -8,8 +7,7 @@ body {
 }
 
 
-/*===================MENU==========================*/
-
+/* MENU */
  #menu a, button{
      font-size: 18px !important;
      font-weight: 600;
@@ -20,14 +18,12 @@ body {
      color:#3f3f3f;
      
  }
-/*===================SLIDER DE IMAGENES==========================*/
-
+/* IMGANES */
 .carousel-inner {
     max-height:39rem !important;
 }
 
-/*===================SECCION NUESTRO EQUIPO IMAGEN==========================*/
-
+/* NUESTRO EQUIPO IMG */
 
 
 #img-equipo{
@@ -35,8 +31,7 @@ body {
     width:50%;
 }
 
-
-/*===================SECCION NUESTRO EQUIPO MAPA==========================*/
+/* NUESTRO EQUIPO MAPS */
 #local {
     margin-top:50px;
     background-color: #f3f3f3;
@@ -58,8 +53,7 @@ body {
     padding-top:150px;
 }
 
-
-/*===========================SECCION EQUIPO MIAMI==================================*/
+/* SECTION EQUIPO LOCALIZACION */
 #numeros-local{
     margin:0 !important;
     padding:0 !important;
@@ -81,12 +75,8 @@ body {
     margin:0;
 }
 
-/*=========================CONTACTOS BACKGROUND================================*/
+/* CONTACTO FONDO */
 
-#bg-contactos{
-    position:relative;
-    top: -130px;
-} 
 
  #seccion-contacto{
     background-color: #1b2a4e;
@@ -94,8 +84,7 @@ body {
     position:relative;
 }
 
-/*=========================CONTACTOS FORMULARIO================================*/
-
+/* CONTACTO FORM */
 #contenedor-formulario{
     position:absolute;
     top:30%;
@@ -113,8 +102,7 @@ body {
 
 
 
-/*=========================FOOTER================================*/
-
+/* FOOTER */
 footer {
     background: #1b2a4e;
     min-height: 100px;;
@@ -129,8 +117,7 @@ footer p{
     color:#f3f3f3;
 }
 
-/*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
-
+/* RESPONSIVE */
 @media (max-width:1200px){
     #intro, #equipo {
         width:90% !important;
@@ -148,8 +135,7 @@ footer p{
    }
  
 }
-/*=========================MEDIA QUERIES PANTALLA SM================================*/
-
+/* RESPONSIVE SM */
 
 @media (max-width:768px) {
 
@@ -181,8 +167,7 @@ footer p{
 
 
 }
-/*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
-
+/*RESPONISVE SM.EX */
 @media (max-width: 576px) {
     #servicios-fila-2 {
         width:100% !important;
