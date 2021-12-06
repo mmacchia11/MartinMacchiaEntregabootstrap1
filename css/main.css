@@ -117,6 +117,19 @@ footer p{
     color:#f3f3f3;
 }
 
+
+
+
+/* INDEX SERVICIOS */
+
+#section-servicios{
+    height: 800px;
+    margin-top: 150px;
+}
+
+
+
+
 /* RESPONSIVE */
 @media (max-width:1200px){
     #intro, #equipo {
