@@ -129,7 +129,10 @@ footer p{
     margin-top: 150px;
 }
 
-
+/* INDEX CONTACTO */
+#contenedor-contacto{
+    height: 750px;
+}
 
 
 /* RESPONSIVE */

@@ -41,7 +41,9 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="./service.html">Servicio</a>
+              <a class="nav-link" aria-current="page" href="./service.html"
+                >Servicio</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#equipo">Proyectos</a>
@@ -68,52 +70,44 @@
       </div>
     </nav>
 
-    <!-- SECTION DE SERVCIOS -->
-    <section class="w-100" id="section-servicios">
-        <div class="row w-75 mx-auto" id="servicios-fila-1">       
-            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
-                <img src="../img/desarrollo.png" alt="desarrollo"   width="180" height="160">
-    
-                <div>
-                    <h3 class="fs-5 mt-4 px-4 pb-1">Desarrollo</h3>
-                    <p class="px-4">Desarrollo de aplicaciones WEB, moviles y ecommerce</p>
-                </div>
-    
-            </div>
-    
-            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
-                <img src="../img/concepto.png" alt="concepto" width="180" height="160">
-    
-                <div>
-                    <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">Branding</h3>
-                    <p class="px-4">Diseño, Conceptualización e Implementación de productos digitales</p>
-                </div>
-            </div>   
+    <div class="container mt-5" id="contenedor-contacto">
+      <h1>Contactame</h1>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="nombre" requierd />
         </div>
-        
-        <div class="row w-75 mx-auto mb-5" id="servicios-fila-2">       
-            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
-                <img src="../img/comunicaciones.png" alt="comunicaciones" width="180" height="160">
-    
-                <div>
-                    <h3 class="fs-5 mt-4 px-4 pb-1">Comunicaciones</h3>
-                    <p class="px-4">Desarrollo  del plan de comunicaciones para sus clientes.</p>
-                </div>
-            </div>
-    
-            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
-                <img src="../img/seo.png" alt="seo" width="180" height="160" >
-    
-                <div>
-                    <h3 class="fs-5 mt-4 px-4 pb-1">SEO</h3>
-                    <p class="px-4">Analizamos la eficiencia y optimizamos los sitios WEB</p>
-                </div>
-            </div>   
+        <div class="col-md-6">
+          <label for="apellido" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="apellido" requierd />
         </div>
-    </section>
-    
-
-    <!--FOOTER-->
+        <div class="col-md-8">
+          <label for="mail" class="form-label">Mail</label>
+          <input type="email" class="form-control" id="mail" requierd />
+        </div>
+        <div class="col-md-4">
+          <label for="telefono" class="form-label">Telefono</label>
+          <input
+            type="number"
+            class="form-control"
+            id="telefono"
+            placeholder="15-53355555"
+          />
+        </div>
+        <div class="col-md-12">
+          <label for="cometario" class="form-label">Cometario</label>
+          <textarea
+            type="text"
+            class="form-control"
+            id="cometario"
+            rows="5"
+          ></textarea>
+        </div>
+        <div class="col-md-12">
+          <button class="btn btn-primary" type="submit">Consultanos</button>
+        </div>
+      </form>
+    </div>
 
     <footer
       class="w-100 d-flex align-items-center justify-content-center flex-wrap"
@@ -123,7 +117,9 @@
       </p>
       <div id="iconos">
         <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
-        <a href="https://www.linkedin.com/feed/"><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.linkedin.com/feed/"
+          ><i class="bi bi-linkedin"></i
+        ></a>
         <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
       </div>
     </footer>
