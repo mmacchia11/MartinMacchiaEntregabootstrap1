@@ -134,6 +134,9 @@ footer p{
     height: 750px;
 }
 
+#contenedor-proyectos{
+    height: 800px;
+}
 
 /* RESPONSIVE */
 @media (max-width:1200px){
