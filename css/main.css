@@ -124,19 +124,17 @@ footer p{
 
 /* INDEX SERVICIOS */
 
-#section-servicios{
-    height: 800px;
-    margin-top: 150px;
-}
+/* #section-servicios{
+    height: 700px;
+   
+} */
 
 /* INDEX CONTACTO */
 #contenedor-contacto{
     height: 750px;
 }
 
-#contenedor-proyectos{
-    height: 800px;
-}
+
 
 /* RESPONSIVE */
 @media (max-width:1200px){
