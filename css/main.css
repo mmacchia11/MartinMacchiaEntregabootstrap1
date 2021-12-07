@@ -124,16 +124,22 @@ footer p{
 
 /* INDEX SERVICIOS */
 
-/* #section-servicios{
-    height: 700px;
-   
-} */
+
 
 /* INDEX CONTACTO */
 #contenedor-contacto{
     height: 750px;
 }
 
+/* INDEX SOBRE Mi */
+
+#sectio-sobremi{
+    height: 780px;
+}
+
+#img-sobremi{
+    width:90%;
+}
 
 
 /* RESPONSIVE */
