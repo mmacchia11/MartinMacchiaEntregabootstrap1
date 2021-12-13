@@ -1,0 +1,214 @@
+/* GLOBAL */
+@font-face {
+  font-family: "logo";
+  src: url(../fonts/FredokaOne-Regular.ttf);
+}
+@font-face {
+  font-family: "botones";
+  src: url(../fonts/MochiyPopPOne-Regular.ttf);
+}
+@font-face {
+  font-family: "principal";
+  src: url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+}
+body {
+  font-family: "principal", sans-serif;
+  overflow-x: hidden;
+}
+
+/* MENU */
+#menu a {
+  font-size: 18px !important;
+  font-weight: 600;
+}
+
+button {
+  font-size: 18px !important;
+  font-weight: 600;
+  font-family: "botones";
+}
+
+.container span {
+  font-family: "logo";
+  color: #f3a56e;
+}
+
+/* IMGANES */
+.carousel-inner {
+  max-height: 39rem !important;
+}
+
+/* NUESTRO EQUIPO IMG */
+#img-equipo {
+  max-height: 30rem !important;
+  width: 50%;
+}
+
+/* NUESTRO EQUIPO MAPS */
+#local {
+  margin-top: 50px;
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 300px;
+}
+
+.mapa {
+  background: url(../img/mapa.png);
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+}
+
+.wrapper-local {
+  width: 50%;
+  margin-left: 100px;
+  padding-top: 150px;
+}
+
+/* SECTION EQUIPO LOCALIZACION */
+#numeros-local {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#numeros-local div {
+  padding: 0 20px 0 0;
+  text-align: left;
+  height: 48px;
+}
+
+#numeros-local div:not(:last-child) {
+  border-right: 2px solid #3f3f3f;
+}
+
+#numeros-local div:not(:first-child) {
+  padding-left: 20px;
+}
+
+#numeros-local p {
+  margin: 0;
+}
+
+/* CONTACTO FONDO */
+#seccion-contacto {
+  background-color: #1b2a4e;
+  min-height: 500px;
+  position: relative;
+}
+
+/* CONTACTO FORM */
+#contenedor-formulario {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #f3f3f3;
+  border-radius: 5px;
+}
+
+#titulo-formulario {
+  color: #3f3f3f;
+}
+
+/* FOOTER */
+footer {
+  background: #1b2a4e;
+  min-height: 100px;
+}
+
+footer p {
+  color: #f3f3f3;
+  text-align: center;
+}
+
+#iconos i {
+  font-size: 26px;
+  padding: 0 8px;
+  color: #f3f3f3;
+}
+
+/* INDEX SERVICIOS */
+/* INDEX CONTACTO */
+#contenedor-contacto {
+  height: 750px;
+}
+
+/* INDEX SOBRE Mi */
+#sectio-sobremi {
+  height: 780px;
+}
+
+#img-sobremi {
+  width: 90%;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1200px) {
+  #intro,
+#equipo {
+    width: 90% !important;
+    margin: auto;
+  }
+
+  #local {
+    flex-wrap: wrap;
+    padding-top: 30px;
+  }
+
+  .wrapper-local {
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+  }
+}
+/* RESPONSIVE SM */
+@media (max-width: 768px) {
+  #intro,
+#equipo {
+    width: 90% !important;
+    margin: auto;
+  }
+
+  #img-equipo {
+    max-height: 20rem !important;
+    width: 90%;
+  }
+
+  .wrapper-local {
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+  }
+
+  #local {
+    flex-wrap: wrap;
+  }
+
+  .mapa img {
+    width: 100%;
+    height: auto;
+  }
+
+  #bg-contactos {
+    top: -120px;
+  }
+}
+/*RESPONISVE SM.EX */
+@media (max-width: 576px) {
+  #servicios-fila-2 {
+    width: 100% !important;
+  }
+
+  #servicios-fila-1 {
+    width: 100% !important;
+  }
+
+  .icono-wrap {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
